@@ -20,8 +20,16 @@ To Start application
 ```
 npm start
 ```
-- Note: For the first time it will restore all the data to the database.
--       It will generate GET API in the console. You can run this API at the browser or in any rest client.
+- For the first time it will restore all the data to the database.
+- It will generate GET API in the console. You can run this API at the browser or in any rest client.
+- Ex: 
+
+```
+Data is added to DB Successfully!!!!!!
+ Please run following GET API to check the output:
+ 
+ http://localhost:5000/chats?userId=5f183cbcbfe90832b7d241f9
+ ```
 
 
 
